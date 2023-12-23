@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Snake.Models
 {
-    public class Snake
+    public class Food
     {
-        public Snake()
+        public Food ()
         {
             point = new Point(0, 0);
-            snakeSize = 1;
-            score = 0;
         }
-
-        private Point point;
-        private int snakeSize;
-        private int score;
+        public Point point;
+        public int Amount { get; set; }
     }
 }
